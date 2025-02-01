@@ -15,17 +15,12 @@ function App() {
 
   return (
     <>
+    <h1>Vinyasa</h1>
       <div>
-    <Header/>
-    <IndividualClasses/>
     <Layout/>
-    <NavigationBar/>
-    <RecommendationClass/>
-    <SearchBar/>
-    <TodayActivityCard/>
 
       </div>
-      <h1>Vinyasa</h1>
+      
       {/*
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
