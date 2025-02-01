@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from '../assets/react.svg'
 import viteLogo from '/vite.svg'
 import '../css/App.css'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import Header from '../parrot_components/Header.jsx'
 import IndividualClasses from '../parrot_components/IndividualClasses.jsx'
 import Layout from '../parrot_components/Layout.jsx'
@@ -16,6 +17,13 @@ function App() {
 
   return (
     <>
+    <Router>
+      <Routes>
+        <Route path="/" element={<CoverPage/>}/>
+        <Route path="/home" element={<Layout/>}/>
+      </Routes>
+    </Router>
+    {/*
     <h1>Vinyasa</h1>
       <div>
         <CoverPage/>
@@ -23,7 +31,7 @@ function App() {
 
       </div>
       
-      {/*
+      
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const CoverPage = () => {
   const styles = {
@@ -75,7 +76,7 @@ const CoverPage = () => {
       position: 'absolute',
       width: '498px',
       height: '498px',
-      left: '-61px',
+      left: '0px',
       top: '338px',
       zIndex: 2,
       pointerEvents: 'none',
@@ -103,7 +104,7 @@ const CoverPage = () => {
       
       <h1 style={styles.title}>vinyasa</h1>
       <p style={styles.subtitle}>your personal yoga studio!</p>
-      
+      <Link to="/home">
       <button 
         style={styles.nextButton}
         onClick={handleNextClick}
@@ -112,6 +113,7 @@ const CoverPage = () => {
       >
         <span style={styles.nextText}>next</span>
       </button>
+      </Link>
     </div>
   );
 };
