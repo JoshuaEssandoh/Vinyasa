@@ -9,6 +9,7 @@ import NavigationBar from '../parrot_components/NavigationBar.jsx'
 import RecommendationClass from '../parrot_components/RecommendationClass.jsx'
 import SearchBar from '../parrot_components/SearchBar.jsx'
 import TodayActivityCard from '../parrot_components/TodayActivityCard.jsx'
+import CoverPage from '../parrot_components/CoverPage.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
     <>
     <h1>Vinyasa</h1>
       <div>
+        <CoverPage/>
     <Layout/>
 
       </div>
