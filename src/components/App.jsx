@@ -2,6 +2,13 @@ import { useState } from 'react'
 import reactLogo from '../assets/react.svg'
 import viteLogo from '/vite.svg'
 import '../css/App.css'
+import Header from '../parrot_components/Header.jsx'
+import IndividualClasses from '../parrot_components/IndividualClasses.jsx'
+import Layout from '../parrot_components/Layout.jsx'
+import NavigationBar from '../parrot_components/NavigationBar.jsx'
+import RecommendationClass from '../parrot_components/RecommendationClass.jsx'
+import SearchBar from '../parrot_components/SearchBar.jsx'
+import TodayActivityCard from '../parrot_components/TodayActivityCard.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,12 +16,14 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <Header/>
+    <IndividualClasses/>
+    <Layout/>
+    <NavigationBar/>
+    <RecommendationClass/>
+    <SearchBar/>
+    <TodayActivityCard/>
+        
       </div>
       <h1>Vinyasa</h1>
       <div className="card">
