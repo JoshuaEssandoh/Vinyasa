@@ -1,7 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const IndividualClasses = ({ style }) => {
   const classes = [
+    
     {
       day: 'Monday',
       background: '#ffddf1',
@@ -109,11 +111,13 @@ const IndividualClasses = ({ style }) => {
             }}
           >
             <span style={dayStyle}>{item.day}</span>
+            <Link to="/exercise">
             <img
               src={item.image}
               alt={item.day}
               style={imageStyle}
             />
+            </Link>
           </div>
         ))}
       </div>
