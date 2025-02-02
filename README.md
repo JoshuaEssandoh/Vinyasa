@@ -1,8 +1,25 @@
-# React + Vite
+# 🌿 Vinyasa – Yoga, Anywhere, Anytime!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🌟 Inspiration
+We wanted to create an accessible way for women to practice yoga from home—so we built Vinyasa, a simple and intuitive app for guided flow yoga sessions.
 
-Currently, two official plugins are available:
+## Tech Stack
+- Frontend: ReactJS, HTML, CSS
+- Design: Figma
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🏁 Getting Started
+🔧 Installation
+Clone the repository and install dependencies:
+'''
+git clone https://github.com/your-username/vinyasa.git
+cd vinyasa
+npm install
+'''
+
+Running the App
+Start the development server:
+'''
+npm start
+'''
+
+The ap will be available at a local host.
