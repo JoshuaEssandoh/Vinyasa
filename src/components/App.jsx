@@ -1,8 +1,15 @@
 import { useState } from 'react'
-import reactLogo from '../assets/react.svg'
-import viteLogo from '/vite.svg'
+// import reactLogo from '../assets/react.svg'
+// import viteLogo from '/vite.svg'
 import '../css/App.css'
 import { HashRouter as Router, Routes, Route } from 'react-router-dom'
+// Coverpage
+import CoverPage from '../parrot_components/CoverPage.jsx'
+
+// Exercise page
+import ExercisePageLayout from '../parrot_components/exercise_page/ExercisePageLayout.jsx'
+
+// Homepage
 import Header from '../parrot_components/homepage/Header.js'
 import IndividualClasses from '../parrot_components/homepage/IndividualClasses.js'
 import Layout from '../parrot_components/homepage/Layout.js'
@@ -10,8 +17,7 @@ import NavigationBar from '../parrot_components/homepage/NavigationBar.js'
 import RecommendationClass from '../parrot_components/homepage/RecommendationClass.js'
 import SearchBar from '../parrot_components/homepage/SearchBar.js'
 import TodayActivityCard from '../parrot_components/homepage/TodayActivityCard.js'
-import CoverPage from '../parrot_components/CoverPage.jsx'
-import ExercisePageLayout from '../parrot_components/exercise_page/ExercisePageLayout.jsx'
+
 
 function App() {
   const [count, setCount] = useState(0)
