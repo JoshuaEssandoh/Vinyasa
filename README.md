@@ -18,6 +18,8 @@ npm install
 
 Running the App
 Start the development server:
-`npm start`
+```
+npm start
+```
 
 The app will be available at a local host.
