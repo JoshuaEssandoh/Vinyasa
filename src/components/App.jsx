@@ -11,7 +11,7 @@ import RecommendationClass from '../parrot_components/RecommendationClass.jsx'
 import SearchBar from '../parrot_components/SearchBar.jsx'
 import TodayActivityCard from '../parrot_components/TodayActivityCard.jsx'
 import CoverPage from '../parrot_components/CoverPage.jsx'
-import ExercisePage from '../parrot_components/exercise_page/ExercisePage.jsx'
+import ExercisePageLayout from '../parrot_components/exercise_page/ExercisePageLayout.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,7 +22,7 @@ function App() {
       <Routes>
         <Route path="/" element={<CoverPage/>}/>
         <Route path="/home" element={<Layout/>}/>
-        <Route path="/exercise" element={<ExercisePage/>}/>
+        <Route path="/exercise" element={<ExercisePageLayout/>}/>
       </Routes>
     </Router>
     {/*
