@@ -18,34 +18,22 @@ import WorkoutItem3 from '../parrot_components/new stuff/activity/WorkoutItem3.j
 import ExerciseDetails_NavigationBar from '../parrot_components/new stuff/exercise/tree/ExerciseDetails_NavigationBar.jsx';
 import ExercisePage from '../parrot_components/new stuff/exercise/tree/ExercisePage.jsx';
 import ExercisesTitle from '../parrot_components/new stuff/exercise/tree/ExercisesTitle.jsx';
-// import Header from '../parrot_components/new stuff/exercise/tree/Header.jsx';
 import TaglineSection from '../parrot_components/new stuff/exercise/tree/TaglineSection.jsx';
 
 // Exercise - Stretch
 import Button from '../parrot_components/new stuff/exercise/stretch/Button.jsx';
 import Content from '../parrot_components/new stuff/exercise/stretch/Content.jsx';
-import ExercisePage from '../parrot_components/new stuff/exercise/stretch/ExercisePage.jsx';
-// import Header from '../parrot_components/new stuff/exercise/stretch/Header.jsx';
 import MainImage from '../parrot_components/new stuff/exercise/stretch/MainImage.jsx';
-import NavigationBar from '../parrot_components/new stuff/exercise/stretch/NavigationBar.jsx';
 
 // Exercise - Lotus
-import ExercisePage from '../parrot_components/new stuff/exercise/lotus/ExercisePage.jsx';
-// import Header from '../parrot_components/new stuff/exercise/lotus/Header.jsx';
 import MainContent_NavigationBar from '../parrot_components/new stuff/exercise/lotus/MainContent_NavigationBar.jsx';
 
 // Exercise
-import ExerciseDetails_NavigationBar from '../parrot_components/new stuff/exercise/ExerciseDetails_NavigationBar.jsx';
-import ExercisePage from '../parrot_components/new stuff/exercise/ExercisePage.jsx';
 import ExerciseTitle from '../parrot_components/new stuff/exercise/ExerciseTitle.jsx';
-// import Header from '../parrot_components/new stuff/exercise/Header.jsx';
-import TaglineSection from '../parrot_components/new stuff/exercise/TaglineSection.jsx';
 
 // Homepage
-// import Header from '../parrot_components/new stuff/homepage/Header.jsx';
 import IndividualClasses from '../parrot_components/new stuff/homepage/IndividualClasses.jsx';
 import Layout from '../parrot_components/new stuff/homepage/Layout.jsx';
-import NavigationBar from '../parrot_components/new stuff/homepage/NavigationBar.jsx';
 import RecommendationClass from '../parrot_components/new stuff/homepage/RecommendationClass.jsx';
 import SearchBar from '../parrot_components/new stuff/homepage/SearchBar.jsx';
 import TodayActivityCard from '../parrot_components/new stuff/homepage/TodayActivityCard.jsx';

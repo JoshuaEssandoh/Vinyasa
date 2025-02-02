@@ -1,7 +1,5 @@
 import React from 'react';
-import { ReactComponent as WorkoutIcon } from './icon-6.png';
-import { ReactComponent as MoreIcon } from './icon-5.png';
-import { ReactComponent as ChartImage } from './chart-3.png';
+
 
 const WorkoutItem2 = () => {
   return (

@@ -1,7 +1,5 @@
 import React from 'react';
-import { ReactComponent as WorkoutIcon } from './icon-4.png';
-import { ReactComponent as MoreIcon } from './icon-3.png';
-import { ReactComponent as ChartImage } from './chart-2.png';
+
 
 const WorkoutItem3 = ({ title = 'Outdoor Walk', time = '1:28:03' }) => {
   return (

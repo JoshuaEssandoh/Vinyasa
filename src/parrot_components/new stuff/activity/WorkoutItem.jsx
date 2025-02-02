@@ -1,7 +1,4 @@
 import React from 'react';
-import { ReactComponent as WorkoutIcon } from './icon-8.png';
-import { ReactComponent as MoreIcon } from './icon-7.png';
-import { ReactComponent as ChartImage } from './chart-4.png';
 
 const WorkoutItem = ({ 
   title = "Running",
