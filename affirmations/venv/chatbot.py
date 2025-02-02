@@ -13,11 +13,7 @@ Answer:
 
 model = OllamaLLM(model="llama3")
 prompt = ChatPromptTemplate.from_template(template)
-'''
-chain = prompt | model
-result = chain.invoke({"context": "", "question": "hey how are you"})
-print(result)
-''' 
+
 chain = prompt | model
 
 def handle_conversation():
@@ -33,8 +29,7 @@ def handle_conversation():
         context == f"\nUser: {user_input}\nAI: {result}"
 
 if __name__ == "__main__":
-    handle_conversation()
-        
+    handle_conversation()      
 
 
 '''
