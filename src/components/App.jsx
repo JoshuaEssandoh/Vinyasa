@@ -16,7 +16,7 @@ import Layout from '../parrot_components/homepage/Layout.js'
 import NavigationBar from '../parrot_components/homepage/NavigationBar.js'
 import RecommendationClass from '../parrot_components/homepage/RecommendationClass.js'
 import SearchBar from '../parrot_components/homepage/SearchBar.js'
-import TodayActivityCard from '../parrot_components/homepage/TodayActivityCard.js'
+import TodayActivityCard from '../parrot_components/homepage/TodayActivityCard.jsx'
 
 
 function App() {
