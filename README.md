@@ -10,11 +10,11 @@ We wanted to create an accessible way for women to practice yoga from home—so 
 ## 🏁 Getting Started
 🔧 Installation
 Clone the repository and install dependencies:
-``
+```
 git clone https://github.com/your-username/vinyasa.git
 cd vinyasa
 npm install
-``
+```
 
 Running the App
 Start the development server:
