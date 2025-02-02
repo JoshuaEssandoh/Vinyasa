@@ -15,10 +15,9 @@ import WorkoutItem2 from '../parrot_components/new stuff/activity/WorkoutItem2.j
 import WorkoutItem3 from '../parrot_components/new stuff/activity/WorkoutItem3.jsx';
 
 // Exercise - Tree
-import ExerciseDetails_NavigationBar from '../parrot_components/new stuff/exercise/tree/ExerciseDetails_NavigationBar.jsx';
 import ExercisePage from '../parrot_components/new stuff/exercise/tree/ExercisePage.jsx';
-import ExercisesTitle from '../parrot_components/new stuff/exercise/tree/ExercisesTitle.jsx';
-import TaglineSection from '../parrot_components/new stuff/exercise/tree/TaglineSection.jsx';
+{/*import ExercisesTitle from '../parrot_components/new stuff/exercise/tree/ExercisesTitle.jsx';
+import TaglineSection from '../parrot_components/new stuff/exercise/tree/TaglineSection.jsx';*/}
 
 // Exercise - Stretch
 import Button from '../parrot_components/new stuff/exercise/stretch/Button.jsx';
@@ -29,7 +28,7 @@ import MainImage from '../parrot_components/new stuff/exercise/stretch/MainImage
 import MainContent_NavigationBar from '../parrot_components/new stuff/exercise/lotus/MainContent_NavigationBar.jsx';
 
 // Exercise
-import ExerciseTitle from '../parrot_components/new stuff/exercise/ExerciseTitle.jsx';
+{/*import ExercisesTitle from '../parrot_components/new stuff/exercise/ExerciseTitle.jsx';*/}
 
 // Homepage
 import IndividualClasses from '../parrot_components/new stuff/homepage/IndividualClasses.jsx';
@@ -52,7 +51,7 @@ function App() {
       <Routes>
         <Route path="/" element={<CoverPage/>}/>
         <Route path="/home" element={<Layout/>}/>
-        <Route path="/exercise" element={<ExercisePageLayout/>}/>
+        <Route path="/exercise" element={<ActivityWorkouts/>}/>
       </Routes>
     </Router>
     {/*

@@ -1,6 +1,6 @@
 import React from 'react';
-import { ReactComponent as CloseIcon } from './close.png';
-import { ReactComponent as MoreIcon } from './more.png';
+{/*import { ReactComponent as CloseIcon } from './close.png';
+import { ReactComponent as MoreIcon } from './more.png';*/}
 
 const Header = ({ date = 'Today, Feb 2' }) => {
   return (

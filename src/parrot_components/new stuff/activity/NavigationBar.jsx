@@ -1,8 +1,8 @@
 import React from 'react';
-import { ReactComponent as HomeIcon } from './home.png';
+{/*import { ReactComponent as HomeIcon } from './home.png';
 import { ReactComponent as ExerciseIcon } from './exercise.png';
 import { ReactComponent as PeopleIcon } from './people-i.png';
-import { ReactComponent as SettingsIcon } from './settings.png';
+import { ReactComponent as SettingsIcon } from './settings.png';*/}
 
 const NavigationBar = () => {
   const iconStyle = {
