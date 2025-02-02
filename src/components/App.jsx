@@ -10,12 +10,12 @@ import CoverPage from '../parrot_components/CoverPage.jsx'
 import ExercisePageLayout from '../parrot_components/exercise_page/ExercisePageLayout.jsx'
 
 // Homepage
-import Header from '../parrot_components/homepage/Header.js'
-import IndividualClasses from '../parrot_components/homepage/IndividualClasses.js'
-import Layout from '../parrot_components/homepage/Layout.js'
-import NavigationBar from '../parrot_components/homepage/NavigationBar.js'
-import RecommendationClass from '../parrot_components/homepage/RecommendationClass.js'
-import SearchBar from '../parrot_components/homepage/SearchBar.js'
+import Header from '../parrot_components/homepage/Header.jsx'
+import IndividualClasses from '../parrot_components/homepage/IndividualClasses.jsx'
+import Layout from '../parrot_components/homepage/Layout.jsx'
+import NavigationBar from '../parrot_components/homepage/NavigationBar.jsx'
+import RecommendationClass from '../parrot_components/homepage/RecommendationClass.jsx'
+import SearchBar from '../parrot_components/homepage/SearchBar.jsx'
 import TodayActivityCard from '../parrot_components/homepage/TodayActivityCard.jsx'
 
 
