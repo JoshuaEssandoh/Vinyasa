@@ -6,30 +6,29 @@ const TodayActivityCard = ({ style }) => {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    padding: '20px',
-    backgroundColor: '#ad42533d',
-    borderRadius: '15px',
     width: '100%',
     maxWidth: '374px',
-    minHeight: '180px',
+    height: '180px',
+    backgroundColor: '#ad42533d',
+    borderRadius: '15px',
+    padding: '20px',
     boxSizing: 'border-box',
     ...style
   };
 
-  const textContainerStyle = {
+  const contentStyle = {
     display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'center',
-    height: '100%',
-    flexGrow: 1
+    justifyContent: 'space-between',
+    height: '100%'
   };
 
   const titleStyle = {
     fontFamily: 'Nunito, sans-serif',
     fontSize: '30px',
     fontWeight: 800,
-    lineHeight: '1.18',
-    color: '#2B2B2B',
+    lineHeight: '117.9%',
+    color: '#2b2b2b',
     margin: 0
   };
 
@@ -37,8 +36,8 @@ const TodayActivityCard = ({ style }) => {
     fontFamily: 'Inter, sans-serif',
     fontSize: '15px',
     fontWeight: 700,
-    color: '#7F7F7F',
-    margin: '10px 0 0 0'
+    color: '#7f7f7f',
+    margin: 0
   };
 
   const imageStyle = {
@@ -49,12 +48,12 @@ const TodayActivityCard = ({ style }) => {
 
   return (
     <div style={cardStyle}>
-      <div style={textContainerStyle}>
+      <div style={contentStyle}>
         <h2 style={titleStyle}>Today's activity</h2>
         <p style={timeStyle}>8:00 AM - 1:30 PM</p>
       </div>
       <img 
-        src="https://dashboard.codeparrot.ai/api/image/Z552Cw58MnUDluPX/jogging.png" 
+        src="https://dashboard.codeparrot.ai/api/image/Z57eQzRi7Jes38uu/jogging.png" 
         alt="Jogging activity" 
         style={imageStyle}
       />
@@ -67,4 +66,3 @@ TodayActivityCard.defaultProps = {
 };
 
 export default TodayActivityCard;
-

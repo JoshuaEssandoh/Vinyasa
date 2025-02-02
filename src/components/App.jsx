@@ -9,7 +9,7 @@ import Layout from '../parrot_components/Layout.jsx'
 import NavigationBar from '../parrot_components/NavigationBar.jsx'
 import RecommendationClass from '../parrot_components/RecommendationClass.jsx'
 import SearchBar from '../parrot_components/SearchBar.jsx'
-import TodayActivityCard from '../parrot_components/TodayActivityCard.jsx'
+import TodayActivityCard from '../parrot_components/TodayActivityCard.js'
 import CoverPage from '../parrot_components/CoverPage.jsx'
 import ExercisePageLayout from '../parrot_components/exercise_page/ExercisePageLayout.jsx'
 

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const NavigationBar = ({ style }) => {
-  const navBarStyle = {
+  const navStyle = {
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-around',
@@ -36,9 +36,9 @@ const NavigationBar = ({ style }) => {
   };
 
   return (
-    <nav style={navBarStyle}>
+    <nav style={navStyle}>
       <img 
-        src="https://dashboard.codeparrot.ai/api/image/Z552Cw58MnUDluPX/home.png"
+        src="https://dashboard.codeparrot.ai/api/image/Z57eQzRi7Jes38uu/home.png"
         alt="Home"
         style={iconStyle}
         onMouseEnter={handleIconHover}
@@ -46,7 +46,7 @@ const NavigationBar = ({ style }) => {
         onClick={() => console.log('Home clicked')}
       />
       <img 
-        src="https://dashboard.codeparrot.ai/api/image/Z552Cw58MnUDluPX/exercise.png"
+        src="https://dashboard.codeparrot.ai/api/image/Z57eQzRi7Jes38uu/exercise.png"
         alt="Exercise"
         style={iconStyle}
         onMouseEnter={handleIconHover}
@@ -54,7 +54,7 @@ const NavigationBar = ({ style }) => {
         onClick={() => console.log('Exercise clicked')}
       />
       <img 
-        src="https://dashboard.codeparrot.ai/api/image/Z552Cw58MnUDluPX/people-i.png"
+        src="https://dashboard.codeparrot.ai/api/image/Z57eQzRi7Jes38uu/people-i.png"
         alt="People"
         style={peopleIconStyle}
         onMouseEnter={handleIconHover}
@@ -62,7 +62,7 @@ const NavigationBar = ({ style }) => {
         onClick={() => console.log('People clicked')}
       />
       <img 
-        src="https://dashboard.codeparrot.ai/api/image/Z552Cw58MnUDluPX/settings.png"
+        src="https://dashboard.codeparrot.ai/api/image/Z57eQzRi7Jes38uu/settings.png"
         alt="Settings"
         style={iconStyle}
         onMouseEnter={handleIconHover}
@@ -78,4 +78,3 @@ NavigationBar.defaultProps = {
 };
 
 export default NavigationBar;
-
