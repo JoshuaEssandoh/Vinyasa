@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .chat-container { width: 50%; margin: auto; }
+        .chat-box { height: 300px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; }
+        input, button { margin-top: 10px; width: 100%; padding: 10px; }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <h2>Chat with Vinyasa</h2>
+        <div class="chat-box" id="chat-box"></div>
+        <input type="text" id="user-input" placeholder="Type your message...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <script>
+        // Check if a session ID is already stored in localStorage, otherwise generate one
+        if (!localStorage.getItem('session_id')) {
+            localStorage.setItem('session_id', "session-" + Math.floor(Math.random() * 10000));
+        }
+
+        let sessionId = localStorage.getItem('session_id');
+
+        async function sendMessage() {
+            let userInput = document.getElementById("user-input").value;
+            let chatBox = document.getElementById("chat-box");
+
+            if (userInput.trim() === "") return;
+
+            // Display user message
+            chatBox.innerHTML += `<p><strong>You:</strong> ${userInput}</p>`;
+            document.getElementById("user-input").value = ""; 
+
+            // Send message to backend
+            let response = await fetch("http://127.0.0.1:5000/chat", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ question: userInput, session_id: sessionId }) // Session ID for context tracking
+            });
+
+            let data = await response.json();
+
+            // Display chatbot response
+            chatBox.innerHTML += `<p><strong>Bot:</strong> ${data.response}</p>`;
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+    </script>
+</body>
+</html>
